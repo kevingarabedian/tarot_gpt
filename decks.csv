@@ -1,0 +1,135 @@
+Card Name,Card Number,Suit,Deck Type,Description
+The Fool,0,Major Arcana,Rider-Waite Tarot,A card representing new beginnings, innocence, and a leap of faith.
+The Magician,1,Major Arcana,Rider-Waite Tarot,A card symbolizing creativity, manifestation, and the power of will.
+The High Priestess,2,Major Arcana,Rider-Waite Tarot,A card embodying intuition, mysteries, and hidden knowledge.
+The Empress,3,Major Arcana,Rider-Waite Tarot,A card representing fertility, nurturing, and abundance.
+The Emperor,4,Major Arcana,Rider-Waite Tarot,A card symbolizing authority, structure, and fatherly figures.
+The Hierophant,5,Major Arcana,Rider-Waite Tarot,A card embodying tradition, spirituality, and religious guidance.
+The Lovers,6,Major Arcana,Rider-Waite Tarot,A card representing love, harmony, and important choices.
+The Chariot,7,Major Arcana,Rider-Waite Tarot,A card symbolizing determination, willpower, and overcoming obstacles.
+Strength,8,Major Arcana,Rider-Waite Tarot,A card embodying inner strength, courage, and taming of primal instincts.
+The Hermit,9,Major Arcana,Rider-Waite Tarot,A card representing introspection, solitude, and spiritual guidance.
+Wheel of Fortune,10,Major Arcana,Rider-Waite Tarot,A card symbolizing destiny, cycles of life, and unexpected changes.
+Justice,11,Major Arcana,Rider-Waite Tarot,A card embodying fairness, truth, and karmic balance.
+The Hanged Man,12,Major Arcana,Rider-Waite Tarot,A card representing surrender, letting go, and gaining new perspectives.
+Death,13,Major Arcana,Rider-Waite Tarot,A card symbolizing endings, transformation, and the cycle of life.
+Temperance,14,Major Arcana,Rider-Waite Tarot,A card embodying balance, moderation, and harmony.
+The Devil,15,Major Arcana,Rider-Waite Tarot,A card representing temptation, bondage, and materialism.
+The Tower,16,Major Arcana,Rider-Waite Tarot,A card symbolizing sudden upheaval, destruction, and revelation.
+The Star,17,Major Arcana,Rider-Waite Tarot,A card embodying hope, inspiration, and spiritual guidance.
+The Moon,18,Major Arcana,Rider-Waite Tarot,A card representing intuition, subconscious, and hidden emotions.
+The Sun,19,Major Arcana,Rider-Waite Tarot,A card symbolizing joy, success, and vitality.
+Judgement,20,Major Arcana,Rider-Waite Tarot,A card embodying self-reflection, awakening, and personal transformation.
+The World,21,Major Arcana,Rider-Waite Tarot,A card representing completion, wholeness, and integration.
+Ace of Wands,Ace,Wands,Rider-Waite Tarot,A card signifying new opportunities, passion, and creative energy.
+Two of Wands,2,Wands,Rider-Waite Tarot,A card representing planning, making choices, and personal power.
+Three of Wands,3,Wands,Rider-Waite Tarot,A card symbolizing expansion, exploration, and growth.
+Four of Wands,4,Wands,Rider-Waite Tarot,A card embodying celebration, harmony, and joyful moments.
+Five of Wands,5Wands,Rider-Waite Tarot,A card representing conflict, competition, and differences of opinion.
+Six of Wands,6,Wands,Rider-Waite Tarot,A card symbolizing victory, recognition, and public acclaim.
+Seven of Wands,7,Wands,Rider-Waite Tarot,A card embodying perseverance, standing up for oneself, and defending beliefs.
+Eight of Wands,8,Wands,Rider-Waite Tarot,A card representing swift action, progress, and accelerated change.
+Nine of Wands,9,Wands,Rider-Waite Tarot,A card symbolizing resilience, persistence, and a final push toward success.
+Ten of Wands,10,Wands,Rider-Waite Tarot,A card embodying burdens, responsibilities, and the need for delegation.
+Page of Wands,Page,Wands,Rider-Waite Tarot,A card signifying youthful energy, exploration, and creative spark.
+Knight of Wands,Knight,Wands,Rider-Waite Tarot,A card representing passion, adventure, and taking bold action.
+Queen of Wands,Queen,Wands,Rider-Waite Tarot,A card embodying confidence, leadership, and independence.
+King of Wands,King,Wands,Rider-Waite Tarot,A card symbolizing charisma, authority, and natural-born leadership.
+Ace of Cups,Ace,Cups,Rider-Waite Tarot,A card signifying new emotional beginnings, love, and intuition.
+Two of Cups,2,Cups,Rider-Waite Tarot,A card representing partnership, harmony, and mutual attraction.
+Three of Cups,3,Cups,Rider-Waite Tarot,A card symbolizing celebration, friendship, and joyful connections.
+Four of Cups,4,Cups,Rider-Waite Tarot,A card embodying contemplation, introspection, and seeking emotional fulfillment.
+Five of Cups,5,Cups,Rider-Waite Tarot,A card representing loss, grief, and focusing on what's been lost rather than what remains.
+Six of Cups,6,Cups,Rider-Waite Tarot,A card symbolizing nostalgia, innocence, and reconnecting with the past.
+Seven of Cups,7,Cups,Rider-Waite Tarot,A card embodying choices, fantasies, and illusions.
+Eight of Cups,8,Cups,Rider-Waite Tarot,A card representing walking away, leaving behind what no longer serves, and seeking deeper meaning.
+Nine of Cups,9,Cups,Rider-Waite Tarot,A card symbolizing contentment, emotional satisfaction, and wishes fulfilled.
+Ten of Cups,10,Cups,Rider-Waite Tarot,A card embodying happiness, harmony, and emotional fulfillment in relationships and family.
+Page of Cups,Page,Cups,Rider-Waite Tarot,A card signifying creativity, emotional sensitivity, and a youthful, romantic nature.
+Knight of Cups,Knight,Cups,Rider-Waite Tarot,A card representing romantic pursuits, chivalry, and following the heart's desires.
+Queen of Cups,Queen,Cups,Rider-Waite Tarot,A card embodying compassion, intuition, and nurturing qualities.
+King of Cups,King,Cups,Rider-Waite Tarot,A card symbolizing emotional maturity, empathy, and mastery of emotions.
+Ace of Swords,Ace,Swords,Rider-Waite Tarot,A card signifying mental clarity, truth, and breakthroughs in communication.
+Two of Swords,2,Swords,Rider-Waite Tarot,A card representing indecision, choices, and finding balance in opposing forces.
+Three of Swords,3,Swords,Rider-Waite Tarot,A card symbolizing heartbreak, sorrow, and emotional pain.
+Four of Swords,4,Swords,Rider-Waite Tarot,A card embodying rest, recuperation, and retreat for healing.
+Five of Swords,5,Swords,Rider-Waite Tarot,A card representing conflict, manipulation, and self-interest.
+Six of Swords,6,Swords,Rider-Waite Tarot,A card symbolizing transition, moving on, and finding solace in a new environment.
+Seven of Swords,7,Swords,Rider-Waite Tarot,A card embodying deception, trickery, and strategizing for personal gain.
+Eight of Swords,8,Swords,Rider-Waite Tarot,A card representing feeling trapped, limited beliefs, and self-imposed restrictions.
+Nine of Swords,9,Swords,Rider-Waite Tarot,A card symbolizing anxiety, worry, and nightmares.
+Ten of Swords,10,Swords,Rider-Waite Tarot,A card embodying pain, endings, and the need for transformation.
+Page of Swords,Page,Swords,Rider-Waite Tarot,A card signifying curiosity, intellectual growth, and youthful energy in the realm of thoughts.
+Knight of Swords,Knight,Swords,Rider-Waite Tarot,A card representing assertiveness, ambition, and swift action in the realm of intellect.
+Queen of Swords,Queen,Swords,Rider-Waite Tarot,A card embodying independence, clear communication, and analytical thinking.
+King of Swords,King,Swords,Rider-Waite Tarot,A card symbolizing mental clarity, wise decision-making, and intellectual authority.
+Ace of Pentacles,Ace,Pentacles,Rider-Waite Tarot,A card signifying new beginnings in the material realm, abundance, and opportunities for growth.
+Two of Pentacles,2,Pentacles,Rider-Waite Tarot,A card representing balance, adaptability, and juggling multiple priorities.
+Three of Pentacles,3,Pentacles,Rider-Waite Tarot,A card symbolizing teamwork, collaboration, and mastery of skills.
+Four of Pentacles,4,Pentacles,Rider-Waite Tarot,A card embodying possessiveness, material security, and resistance to change.
+Five of Pentacles,5,Pentacles,Rider-Waite Tarot,A card representing financial loss, hardship, and seeking support in difficult times.
+Six of Pentacles,6,Pentacles,Rider-Waite Tarot,A card symbolizing generosity, charity, and the flow of abundance.
+Seven of Pentacles,7,Pentacles,Rider-Waite Tarot,A card embodying patience, investment, and reaping rewards through long-term effort.
+Eight of Pentacles,8,Pentacles,Rider-Waite Tarot,A card representing craftsmanship, diligence, and honing skills in the material realm.
+Nine of Pentacles,9,Pentacles,Rider-Waite Tarot,A card symbolizing luxury, self-sufficiency, and enjoying the fruits of one's labor.
+Ten of Pentacles,10,Pentacles,Rider-Waite Tarot,A card embodying wealth, abundance, and the culmination of material success within family and community.
+Page of Pentacles,Page,Pentacles,Rider-Waite Tarot,A card signifying ambition, practicality, and a grounded approach to material matters.
+Knight of Pentacles,Knight,Pentacles,Rider-Waite Tarot,A card representing responsibility, diligence, and stability in the realm of finance and work.
+Queen of Pentacles,Queen,Pentacles,Rider-Waite Tarot,A card embodying nurturing, practicality, and financial security.
+Kingof Pentacles,King,Pentacles,Rider-Waite Tarot,A card symbolizing wealth, abundance, and mastery in the material realm.
+Ace of Wands,Ace,Wands,Thoth Tarot,A card signifying creative energy, inspiration, and potential.
+Two of Wands,2,Wands,Thoth Tarot,A card representing personal power, expansion of horizons, and making choices.
+Three of Wands,3,Wands,Thoth Tarot,A card symbolizing virtue, cooperation, and successful partnerships.
+Four of Wands,4,Wands,Thoth Tarot,A card embodying completion, celebration, and harmony within a structured environment.
+Five of Wands,5,Wands,Thoth Tarot,A card representing conflict, competition, and the need for assertiveness.
+Six of Wands,6,Wands,Thoth Tarot,A card symbolizing victory, recognition, and the fulfillment of desires.
+Seven of Wands,7,Wands,Thoth Tarot,A card embodying courage, determination, and defending one's position.
+Eight of Wands,8,Wands,Thoth Tarot,A card representing swiftness, progress, and messages of importance.
+Nine of Wands,9,Wands,Thoth Tarot,A card symbolizing resilience, persistence, and the strength to overcome challenges.
+Ten of Wands,10,Wands,Thoth Tarot,A card embodying oppression, burden, and the need to release excessive responsibilities.
+Princess of Wands,Page,Wands,Thoth Tarot,A card signifying enthusiasm, creativity, and exploration of passions.
+Prince of Wands,Knight,Wands,Thoth Tarot,A card representing fiery energy, impulsiveness, and the pursuit of adventure.
+Queen of Wands,Queen,Wands,Thoth Tarot,A card embodying charismatic leadership, independence, and confidence.
+Prince of Wands,King,Wands,Thoth Tarot,A card symbolizing mastery, inspiration, and charismatic authority.
+Ace of Cups,Ace,Cups,Thoth Tarot,A card signifying emotional potential, love, and the beginning of a new connection.
+Two of Cups,2,Cups,Thoth Tarot,A card representing harmony, partnership, and the merging of emotions.
+Three of Cups,3,Cups,Thoth Tarot,A card symbolizing celebration, abundance, and joyful connections with others.
+Four of Cups,4,Cups,Thoth Tarot,A card embodying introspection, contemplation, and a need for emotional reassessment.
+Five of Cups,5,Cups,Thoth Tarot,A card representing loss, disappointment, and the process of healing.
+Six of Cups,6,Cups,Thoth Tarot,A card symbolizing nostalgia, memories, and the influence of the past on the present.
+Seven of Cups,7,Cups,Thoth Tarot,A card embodying illusions, choices, and the need for discernment in emotional matters.
+Eight of Cups,8,Cups,Thoth Tarot,A card representing walking away from emotional attachments, letting go, and seeking inner fulfillment.
+Nine of Cups,9,Cups,Thoth Tarot,A card symbolizing emotional contentment, satisfaction, and the fulfillment of desires.
+Ten of Cups,10,Cups,Thoth Tarot,A card embodying happiness, harmony, and emotional fulfillment within relationships and family.
+Princess of Cups,Page,Cups,Thoth Tarot,A card signifying sensitivity, intuition, and the exploration of emotions.
+Prince of Cups,Knight,Cups,Thoth Tarot,A card representing romantic idealism, emotional depth, and the pursuit of dreams.
+Queen of Cups,Queen,Cups,Thoth Tarot,A card embodying compassion, intuition, and nurturing qualities in emotional matters.
+Prince of Cups,Kingof Cups,King,Cups,Thoth Tarot,A card symbolizing emotional maturity, empathy, and mastery of emotions.
+Ace of Swords,Ace,Swords,Thoth Tarot,A card signifying clarity of thought, truth, and the power of intellect.
+Two of Swords,2,Swords,Thoth Tarot,A card representing decision-making, balance, and weighing options.
+Three of Swords,3,Swords,Thoth Tarot,A card symbolizing heartbreak, sorrow, and the need for healing.
+Four of Swords,4,Swords,Thoth Tarot,A card embodying rest, contemplation, and the restoration of mental energy.
+Five of Swords,5,Swords,Thoth Tarot,A card representing conflict, manipulation, and the need for self-protection.
+Six of Swords,6,Swords,Thoth Tarot,A card symbolizing transition, moving away from difficulties, and seeking mental clarity.
+Seven of Swords,7,Swords,Thoth Tarot,A card embodying deceit, trickery, and strategizing for personal gain.
+Eight of Swords,8,Swords,Thoth Tarot,A card representing restriction, self-imposed limitations, and the need for liberation.
+Nine of Swords,9,Swords,Thoth Tarot,A card symbolizing anxiety, worry, and the influence of fear on thoughts.
+Ten of Swords,10,Swords,Thoth Tarot,A card embodying pain, betrayal, and the need for acceptance to move forward.
+Princess of Swords,Page,Swords,Thoth Tarot,A card signifying intellectual curiosity, communication, and the pursuit of knowledge.
+Prince of Swords,Knight,Swords,Thoth Tarot,A card representing assertiveness, logic, and the pursuit of truth.
+Queen of Swords,Queen,Swords,Thoth Tarot,A card embodying intellect, clear communication, and inner strength in the realm of thoughts.
+Prince of Swords,King,Swords,Thoth Tarot,A card symbolizing intellectual authority, strategic thinking, and the power of reason.
+Ace of Pentacles,Ace,Pentacles,Thoth Tarot,A card signifying material abundance, prosperity, and new opportunities.
+Two of Pentacles,2,Pentacles,Thoth Tarot,A card representing balance, adaptability, and the management of resources.
+Three of Pentacles,3,Pentacles,Thoth Tarot,A card symbolizing skilled workmanship, collaboration, and the pursuit of excellence.
+Four of Pentacles,4,Pentacles,Thoth Tarot,A card embodying material security, possessiveness, and the need for moderation.
+Five of Pentacles,5,Pentacles,Thoth Tarot,A card representing financial hardship, isolation, and the need for support.
+Six of Pentacles,6,Pentacles,Thoth Tarot,A card symbolizing generosity, charity, and the flow of material abundance.
+Seven of Pentacles,7,Pentacles,Thoth Tarot,A card embodying patience, perseverance, and the reward of hard work.
+Eight of Pentacles,8,Pentacles,Thoth Tarot,A card representing skill development, craftsmanship, and dedication to work.
+Nine of Pentacles,9,Pentacles,Thoth Tarot,A card symbolizing self-sufficiency, luxury, and the enjoyment of material comforts.
+Ten of Pentacles,10,Pentacles,Thoth Tarot,A card embodying wealth, legacy, and the fulfillment of material abundance within family and community.
+Princess of Pentacles,Page,Pentacles,Thoth Tarot,A card signifying practicality, growth, and the manifestation of ideas in the material realm.
+Prince of Pentacles,Knight,Pentacles,Thoth Tarot,A card representing ambition, reliability, and the pursuit of long-term stability.
+Queen of Pentacles,Queenof Pentacles,Queen,Pentacles,Thoth Tarot,A card embodying practicality, abundance, and nurturing qualities in the material realm.
+Prince of Pentacles,King,Pentacles,Thoth Tarot,A card symbolizing wealth, mastery, and the responsible use of resources.
