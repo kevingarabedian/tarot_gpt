@@ -3,7 +3,8 @@ using System.Collections.Generic;
 using System.ComponentModel;
 using System.IO;
 using System.Linq;
-using OpenAI;
+using System.Text;
+using System.Threading.Tasks;
 
 // Enum for deck types
 public enum DeckType
@@ -29,25 +30,24 @@ public class TarotCard
 public class TarotReader
 {
     private readonly List<TarotCard> tarotCards;
-    private readonly TarotReadingGenerator readingGenerator;
-
-    public TarotReader(DeckType deckType, string apiKey)
+   
+    public TarotReader(DeckType deckType)
     {
         string csvPath = "";
         switch (deckType)
         {
             case DeckType.RiderWaiteTarot:
-                csvPath = "rider_waite_tarot.csv";
+                csvPath = "C:\\Users\\kgarabedian\\source\\repos\\tarot_gpt\\rider-waite.csv";
                 break;
             case DeckType.ThothTarot:
-                csvPath = "thoth_tarot.csv";
+                csvPath = "C:\\Users\\kgarabedian\\source\\repos\\tarot_gpt\\rider-waite.csv";
                 break;
             default:
                 throw new ArgumentException("Invalid deck type");
         }
 
         tarotCards = LoadTarotCards(csvPath);
-        readingGenerator = new TarotReadingGenerator(apiKey);
+       
     }
 
     // Method to load tarot cards from CSV file
@@ -82,7 +82,7 @@ public class TarotReader
         var selectedCards = new List<TarotCard>();
 
         // Filter tarot cards based on reading type
-        var filteredCards = tarotCards.Where(card => card.DeckType == readingType).ToList();
+        var filteredCards = tarotCards.ToList();
 
         // Shuffle the cards
         var shuffledCards = ShuffleCards(filteredCards);
@@ -110,15 +110,65 @@ public class TarotReader
             int k = random.Next(n + 1);
             var value = shuffledCards[k];
             shuffledCards[k] = shuffledCards[n];
-            shuffledCards[n] = value        }
+            shuffledCards[n] = value;
+        }
 
         return shuffledCards;
     }
+    public async Task<string> GenerateTarotReading(List<TarotCard> selectedCards, string readingType, string additionalInfo = "")
+    {
+        string prompt = BuildPrompt(selectedCards, readingType, additionalInfo);
+
+        try
+        {
+            OpenAIApi openAiApi = new OpenAIApi(Environment.GetEnvironmentVariable("CHATGPT"));
+
+            return await openAiApi.CompleteText(prompt);
+        }
+        catch (Exception ex)
+        {
+            Console.WriteLine($"Error generating tarot reading: {ex.Message}");
+            return string.Empty;
+        }
+    }
+
+    private string BuildPrompt(List<TarotCard> selectedCards, string readingType, string additionalInfo)
+    {
+        StringBuilder promptBuilder = new StringBuilder();
+
+        if (!string.IsNullOrEmpty(additionalInfo))
+        {
+            promptBuilder.AppendLine($"You are a Tarot card reader with a lifetime of experience.  You are providing a reading for someone, use your intuition to generate a reading for the individual. Reading Type: {readingType}");
+        }
+        else
+        {
+            promptBuilder.AppendLine($"You are a Tarot card reader with a lifetime of experience.  You are providing a reading for someone, use your intuition and the additional information to generate a reading for the individual. Reading Type: {readingType}");
+        }
+        promptBuilder.AppendLine();
+
+        promptBuilder.AppendLine("Selected Cards:");
+        foreach (var card in selectedCards)
+        {
+            promptBuilder.AppendLine($"{card.CardName} - {card.Description}");
+        }
+        promptBuilder.AppendLine();
+
+        if (!string.IsNullOrEmpty(additionalInfo))
+        {
+            promptBuilder.AppendLine("Additional Information:");
+            promptBuilder.AppendLine(additionalInfo);
+            promptBuilder.AppendLine();
+        }
+
+        promptBuilder.AppendLine("Tarot Reading:");
+
+        return promptBuilder.ToString();
+    }
 
     // Method to generate a tarot reading
-    public void GenerateTarotReading(string readingType, List<TarotCard> selectedCards, string additionalInfo = "")
+    public async void GenerateTarotReading(string readingType, List<TarotCard> selectedCards, string additionalInfo = "")
     {
-        string tarotReading = readingGenerator.GenerateTarotReading(selectedCards, readingType, additionalInfo);
+        string tarotReading = await GenerateTarotReading(selectedCards, readingType, additionalInfo);
 
         // Print the selected cards and the tarot reading to the console
         Console.WriteLine("Selected Cards for the Reading:");
@@ -132,4 +182,3 @@ public class TarotReader
         Console.WriteLine(tarotReading);
     }
 }
-
