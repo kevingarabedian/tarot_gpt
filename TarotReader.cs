@@ -5,6 +5,7 @@ using System.IO;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using static TarotCard;
 
 // Enum for deck types
 public enum DeckType
@@ -24,6 +25,12 @@ public class TarotCard
     public string Suit { get; set; }
     public string DeckType { get; set; }
     public string Description { get; set; }
+    public CardDirection Direction { get; set; } = CardDirection.Up;
+    public enum CardDirection
+    {
+        Up,
+        Down
+    }
 }
 
 // Class to handle tarot readings
@@ -76,9 +83,17 @@ public class TarotReader
         return tarotCards;
     }
 
+    public CardDirection PickCardDirection(Random random)
+    {
+        int randomNumber = random.Next(0, 2);
+        return (randomNumber == 0) ? CardDirection.Up : CardDirection.Down;
+    }
+
     // Method to shuffle and select cards for a reading
     public List<TarotCard> SelectCardsForReading(string readingType, int numberOfCards, int overrideLowerBoundary = -1)
     {
+        Random random = new Random();
+
         var selectedCards = new List<TarotCard>();
 
         // Filter tarot cards based on reading type
@@ -91,6 +106,7 @@ public class TarotReader
         int lowerBoundary = overrideLowerBoundary > 0 ? overrideLowerBoundary : numberOfCards;
         for (int i = 0; i < lowerBoundary; i++)
         {
+            shuffledCards[i].Direction = PickCardDirection(random);
             selectedCards.Add(shuffledCards[i]);
         }
 
@@ -149,7 +165,7 @@ public class TarotReader
         promptBuilder.AppendLine("Selected Cards:");
         foreach (var card in selectedCards)
         {
-            promptBuilder.AppendLine($"{card.CardName} - {card.Description}");
+            promptBuilder.AppendLine($"{card.CardName} - {card.Direction} - {card.Description}");
         }
         promptBuilder.AppendLine();
 
@@ -174,7 +190,7 @@ public class TarotReader
         Console.WriteLine("Selected Cards for the Reading:");
         foreach (var card in selectedCards)
         {
-            Console.WriteLine($"{card.CardName} - {card.Description}");
+            Console.WriteLine($"{card.CardName} - {card.Direction} - {card.Description}");
         }
 
         Console.WriteLine();

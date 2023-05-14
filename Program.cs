@@ -20,7 +20,7 @@ class Program
         Console.WriteLine("Selected Cards for the Reading:");
         foreach (var card in selectedCards)
         {
-            Console.WriteLine($"{card.CardName} - {card.Description}");
+            Console.WriteLine($"{card.CardName} - {card.Direction} - {card.Description}");
         }
 
         Console.WriteLine();
